@@ -29,17 +29,17 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(com.example.myapplication.R.layout.activity_main)
 
-        val intent = Intent(this, ReaderNavigationFragment::class.java)
+//        val intent = Intent(this, ReaderNavigationFragment::class.java)
 //        firstName = findViewById(com.example.myapplication.R.id.)
 //        lastName = findViewById(com.example.myapplication.R.id.last_name)
 //        mail = findViewById(com.example.myapplication.R.id.mail)
 //        register = findViewById(com.example.myapplication.R.id.button_registration)
 //        super.onCreate(savedInstanceState)
 
-        about_app =findViewById(com.example.myapplication.R.id.button_to_app_discription_from_reader)
-        about_app.setOnClickListener {
-            startActivity(intent)
-        }
+//        about_app =findViewById(com.example.myapplication.R.id.button_to_app_discription_from_reader)
+//        about_app.setOnClickListener {
+//            startActivity(intent)
+//        }
 //        binding = ActivityMainBinding.inflate(layoutInflater)
 //        setContentView(binding.root)
 //

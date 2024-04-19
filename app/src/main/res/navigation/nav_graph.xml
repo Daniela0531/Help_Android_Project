@@ -3,18 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/ReaderNavigationFragment">
+    app:startDestination="@id/SplashScreenFragment">
 
-<!--    <fragment-->
-<!--        android:id="@+id/SplashScreenFragment"-->
-<!--        android:name="com.example.myapplication.SplashScreenFragment"-->
-<!--        android:label="SplashScreenFragment"-->
-<!--        tools:layout="@layout/fragment_splash_screen">-->
-<!--        -->
-<!--        <action-->
-<!--            android:id="@+id/action_SplashScreenFragment_to_ReaderNavigationFragment"-->
-<!--            app:destination="@id/ReaderNavigationFragment" />-->
-<!--    </fragment>-->
+    <fragment
+        android:id="@+id/SplashScreenFragment"
+        android:name="com.example.myapplication.SplashScreenFragment"
+        android:label="SplashScreenFragment"
+        tools:layout="@layout/fragment_splash_screen">
+
+        <action
+            android:id="@+id/action_SplashScreenFragment_to_ReaderNavigationFragment"
+            app:destination="@id/ReaderNavigationFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/ReaderNavigationFragment"
