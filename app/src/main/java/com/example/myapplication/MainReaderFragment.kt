@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.content.Context
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,6 +17,7 @@ class MainReaderFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        Log.d("main reader fragment", "I am created!")
         return inflater.inflate(fragment_main_reader, container, false)
     }
 
