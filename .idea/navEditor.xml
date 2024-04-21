@@ -51,8 +51,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="256" />
-                            <option name="y" value="12" />
+                            <option name="x" value="229" />
+                            <option name="y" value="-346" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -83,12 +83,67 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="MainReaderFragment">
+                              <value>
+                                <LayoutPositions>
+                                  <option name="myPositions">
+                                    <map>
+                                      <entry key="action_MainReaderFragment_to_ReaderSettingsFragment">
+                                        <value>
+                                          <LayoutPositions />
+                                        </value>
+                                      </entry>
+                                      <entry key="action_MainReaderFragment_to_ReadingFragment">
+                                        <value>
+                                          <LayoutPositions />
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                </LayoutPositions>
+                              </value>
+                            </entry>
+                            <entry key="ReaderSettingsFragment">
+                              <value>
+                                <LayoutPositions>
+                                  <option name="myPositions">
+                                    <map>
+                                      <entry key="action_ReaderSettingsFragment_to_MainReaderFragment">
+                                        <value>
+                                          <LayoutPositions />
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                </LayoutPositions>
+                              </value>
+                            </entry>
+                            <entry key="ReadingFragment">
+                              <value>
+                                <LayoutPositions>
+                                  <option name="myPositions">
+                                    <map>
+                                      <entry key="action_ReadingFragment_to_MainReaderFragment">
+                                        <value>
+                                          <LayoutPositions />
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                </LayoutPositions>
+                              </value>
+                            </entry>
                             <entry key="action_ReaderNavigationFragment_to_AboutAppFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
                             </entry>
                             <entry key="action_ReaderNavigationFragment_to_WriterNavigationFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_ReaderNavigationFragment_to_nav_graph_reader">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -103,8 +158,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="-241" />
+                            <option name="y" value="-377" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -166,8 +221,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="376" />
+                            <option name="x" value="-170" />
+                            <option name="y" value="505" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -182,6 +237,11 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_WriterNavigationFragment_to_nav_graph_writer">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                           </map>
                         </option>
                       </LayoutPositions>
@@ -192,8 +252,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="-29" />
+                            <option name="y" value="-401" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -213,8 +273,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="500" />
-                            <option name="y" value="12" />
+                            <option name="x" value="521" />
+                            <option name="y" value="-446" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -225,6 +285,30 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_graph_reader">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="71" />
+                            <option name="y" value="322" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_graph_writer">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-211" />
+                            <option name="y" value="107" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

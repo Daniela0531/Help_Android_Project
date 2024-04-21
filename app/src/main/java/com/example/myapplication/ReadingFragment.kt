@@ -11,9 +11,6 @@ import com.example.myapplication.databinding.FragmentReadingBinding
 class ReadingFragment : Fragment() {
 
     private var _binding: FragmentReadingBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(

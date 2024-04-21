@@ -64,44 +64,48 @@
         <action
             android:id="@+id/action_ReaderNavigationFragment_to_WriterNavigationFragment"
             app:destination="@id/WriterNavigationFragment" />
+        <action
+            android:id="@+id/action_ReaderNavigationFragment_to_nav_graph_reader"
+            app:destination="@id/nav_graph_reader" />
+
     </fragment>
 
     <!--    fragments for reader-->
-<!--    <fragment-->
-<!--        android:id="@+id/ReaderSettingsFragment"-->
-<!--        android:name="com.example.myapplication.ReaderSettingsFragment"-->
-<!--        android:label="ReaderSettingsFragment"-->
-<!--        tools:layout="@layout/fragment_reader_settings">-->
+    <fragment
+        android:id="@+id/ReaderSettingsFragment"
+        android:name="com.example.myapplication.ReaderSettingsFragment"
+        android:label="ReaderSettingsFragment"
+        tools:layout="@layout/fragment_reader_settings">
 
-<!--        <action-->
-<!--            android:id="@+id/action_ReaderSettingsFragment_to_MainReaderFragment"-->
-<!--            app:destination="@id/MainReaderFragment" />-->
-<!--    </fragment>-->
+        <action
+            android:id="@+id/action_ReaderSettingsFragment_to_MainReaderFragment"
+            app:destination="@id/MainReaderFragment" />
+    </fragment>
 
-<!--    <fragment-->
-<!--        android:id="@+id/MainReaderFragment"-->
-<!--        android:name="com.example.myapplication.MainReaderFragment"-->
-<!--        android:label="ReaderFragment"-->
-<!--        tools:layout="@layout/fragment_main_reader">-->
+    <fragment
+        android:id="@+id/MainReaderFragment"
+        android:name="com.example.myapplication.MainReaderFragment"
+        android:label="ReaderFragment"
+        tools:layout="@layout/fragment_main_reader">
 
-<!--        <action-->
-<!--            android:id="@+id/action_MainReaderFragment_to_ReadingFragment"-->
-<!--            app:destination="@id/ReadingFragment" />-->
-<!--        <action-->
-<!--            android:id="@+id/action_MainReaderFragment_to_ReaderSettingsFragment"-->
-<!--            app:destination="@id/ReaderSettingsFragment" />-->
-<!--    </fragment>-->
+        <action
+            android:id="@+id/action_MainReaderFragment_to_ReadingFragment"
+            app:destination="@id/ReadingFragment" />
+        <action
+            android:id="@+id/action_MainReaderFragment_to_ReaderSettingsFragment"
+            app:destination="@id/ReaderSettingsFragment" />
+    </fragment>
 
-<!--    <fragment-->
-<!--        android:id="@+id/ReadingFragment"-->
-<!--        android:name="com.example.myapplication.ReadingFragment"-->
-<!--        android:label="ReadingFragment"-->
-<!--        tools:layout="@layout/fragment_reading">-->
+    <fragment
+        android:id="@+id/ReadingFragment"
+        android:name="com.example.myapplication.ReadingFragment"
+        android:label="ReadingFragment"
+        tools:layout="@layout/fragment_reading">
 
-<!--        <action-->
-<!--            android:id="@+id/action_ReadingFragment_to_MainReaderFragment"-->
-<!--            app:destination="@id/MainReaderFragment" />-->
-<!--    </fragment>-->
+        <action
+            android:id="@+id/action_ReadingFragment_to_MainReaderFragment"
+            app:destination="@id/MainReaderFragment" />
+    </fragment>
 <!--    fragments for reader-->
 
     <fragment
@@ -116,40 +120,43 @@
         <action
             android:id="@+id/action_WriterNavigationFragment_to_ReaderNavigationFragment"
             app:destination="@id/ReaderNavigationFragment" />
-    </fragment>
+        <action
+            android:id="@+id/action_WriterNavigationFragment_to_nav_graph_writer"
+            app:destination="@id/nav_graph_writer" />
 
 <!--    fragment for writer-->
-    <fragment
-        android:id="@+id/MainWriterFragment"
-        android:name="com.example.myapplication.MainWriterFragment"
-        android:label="MainWriterFragment"
-        tools:layout="@layout/fragment_main_writer">
-        <action
-            android:id="@+id/action_MainWriterFragment_to_WriterSettingsFragment"
-            app:destination="@id/WriterSettingsFragment" />
-        <action
-            android:id="@+id/action_MainWriterFragment_to_WritingFragment"
-            app:destination="@id/WritingFragment" />
-    </fragment>
+        <fragment
+            android:id="@+id/MainWriterFragment"
+            android:name="com.example.myapplication.MainWriterFragment"
+            android:label="MainWriterFragment"
+            tools:layout="@layout/fragment_main_writer">
+            <action
+                android:id="@+id/action_MainWriterFragment_to_WriterSettingsFragment"
+                app:destination="@id/WriterSettingsFragment" />
+            <action
+                android:id="@+id/action_MainWriterFragment_to_WritingFragment"
+                app:destination="@id/WritingFragment" />
+        </fragment>
 
-    <fragment
-        android:id="@+id/WriterSettingsFragment"
-        android:name="com.example.myapplication.WriterSettingsFragment"
-        android:label="WriterSettingsFragment"
-        tools:layout="@layout/fragment_reader_settings">
-        <action
-            android:id="@+id/action_WriterSettingsFragment_to_MainWriterFragment"
-            app:destination="@id/MainWriterFragment" />
-    </fragment>
+        <fragment
+            android:id="@+id/WriterSettingsFragment"
+            android:name="com.example.myapplication.WriterSettingsFragment"
+            android:label="WriterSettingsFragment"
+            tools:layout="@layout/fragment_reader_settings">
+            <action
+                android:id="@+id/action_WriterSettingsFragment_to_MainWriterFragment"
+                app:destination="@id/MainWriterFragment" />
+        </fragment>
 
-    <fragment
-        android:id="@+id/WritingFragment"
-        android:name="com.example.myapplication.WritingFragment"
-        android:label="WritingFragment"
-        tools:layout="@layout/fragment_writing">
-        <action
-            android:id="@+id/action_WritingFragment_to_MainWriterFragment"
-            app:destination="@id/MainWriterFragment" />
+        <fragment
+            android:id="@+id/WritingFragment"
+            android:name="com.example.myapplication.WritingFragment"
+            android:label="WritingFragment"
+            tools:layout="@layout/fragment_writing">
+            <action
+                android:id="@+id/action_WritingFragment_to_MainWriterFragment"
+                app:destination="@id/MainWriterFragment" />
+        </fragment>
     </fragment>
     <!--    fragment for writer-->
     <fragment
@@ -158,5 +165,7 @@
         android:label="AboutAppFragment"
         tools:layout="@layout/fragment_about_app">
     </fragment>
+    <include app:graph="@navigation/nav_graph_reader" />
+    <include app:graph="@navigation/nav_graph_writer" />
 
 </navigation>

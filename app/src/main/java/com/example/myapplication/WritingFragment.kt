@@ -6,14 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.example.myapplication.databinding.FragmentReadingBinding
 import com.example.myapplication.databinding.FragmentWritingBinding
 
 class WritingFragment : Fragment() {
 
     private var _binding: FragmentWritingBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(

@@ -39,7 +39,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_navigation" />
+    <include layout="@layout/content_navigation_reader" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
